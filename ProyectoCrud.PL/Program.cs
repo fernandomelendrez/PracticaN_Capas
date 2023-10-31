@@ -10,7 +10,7 @@ builder.Services.AddDbContext<DbcrudcoreContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("cadenaSql"));
 });
-
+//PRIMER COMMIT
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
